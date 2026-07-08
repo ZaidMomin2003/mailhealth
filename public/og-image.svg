@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f0f0f"/>
+  <!-- Logo -->
+  <rect x="80" y="80" width="48" height="48" rx="12" fill="#10b981"/>
+  <path d="M92 100l12 9 12-9" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 100h24v18H92z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Brand -->
+  <text x="140" y="115" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="600" fill="#ededed">MailHealth</text>
+  <!-- Headline -->
+  <text x="80" y="280" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" fill="#ededed">Free Email Deliverability</text>
+  <text x="80" y="350" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" fill="#ededed">Tools</text>
+  <!-- Subtext -->
+  <text x="80" y="420" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#7a7a7a">14 tools to check spam words, DNS records, inbox placement,</text>
+  <text x="80" y="452" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#7a7a7a">and email authentication. No signup required.</text>
+  <!-- URL -->
+  <text x="80" y="560" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="500" fill="#10b981">mailhealth.online</text>
+</svg>

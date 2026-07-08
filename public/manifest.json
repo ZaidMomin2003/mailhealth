@@ -1,0 +1,16 @@
+{
+  "name": "MailHealth — Free Email Deliverability Tools",
+  "short_name": "MailHealth",
+  "description": "14 free tools to audit email deliverability, check DNS, validate authentication, and test inbox placement.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

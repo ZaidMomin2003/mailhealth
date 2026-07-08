@@ -1,0 +1,10 @@
+name = "mailhealth-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-01"
+
+[[kv_namespaces]]
+binding = "MAIL_RESULTS"
+id = "YOUR_KV_NAMESPACE_ID_HERE"
+
+[vars]
+ALLOWED_ORIGIN = "https://mailhealth.online"
