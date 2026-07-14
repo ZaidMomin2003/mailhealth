@@ -107,6 +107,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full`} suppressHydrationWarning>
       <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5C0WVREZQC" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5C0WVREZQC');
+            `,
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -153,7 +165,7 @@ export default function RootLayout({
               logo: "https://mailhealth.online/favicon.svg",
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "help@mailhealth.online",
+                email: "help@mailhealth.dpdns.org",
                 contactType: "customer support",
               },
               sameAs: [],
