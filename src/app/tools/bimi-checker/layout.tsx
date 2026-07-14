@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free BIMI Record Checker — MailHealth",
     description:
       "Check if your domain has BIMI configured. Preview your brand logo as it appears in Gmail and Yahoo inboxes.",
-    url: "https://mailhealth.online/tools/bimi-checker",
+    url: "https://mailhealth.dpdns.org/tools/bimi-checker",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Check if your domain has BIMI configured. Preview your brand logo as it appears in Gmail and Yahoo inboxes.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/bimi-checker",
+    canonical: "https://mailhealth.dpdns.org/tools/bimi-checker",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "BIMI Record Checker",
-            url: "https://mailhealth.online/tools/bimi-checker",
+            url: "https://mailhealth.dpdns.org/tools/bimi-checker",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free SPF Record Generator — MailHealth",
     description:
       "Build a valid SPF record with include statements, IP addresses, and policy settings. Copy and paste into DNS.",
-    url: "https://mailhealth.online/tools/spf-generator",
+    url: "https://mailhealth.dpdns.org/tools/spf-generator",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Build a valid SPF record with include statements, IP addresses, and policy settings. Copy and paste into DNS.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/spf-generator",
+    canonical: "https://mailhealth.dpdns.org/tools/spf-generator",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "SPF Record Generator",
-            url: "https://mailhealth.online/tools/spf-generator",
+            url: "https://mailhealth.dpdns.org/tools/spf-generator",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

@@ -1,6 +1,6 @@
 /**
  * MailHealth Email Worker
- * Triggered by Cloudflare Email Routing when an email arrives at *@mailhealth.online
+ * Triggered by Cloudflare Email Routing when an email arrives at *@mailhealth.dpdns.org
  * Parses headers, scores deliverability, stores result in KV
  */
 

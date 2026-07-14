@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free DKIM Record Generator — MailHealth",
     description:
       "Generate a DKIM DNS TXT record from your public key. Supports RSA and Ed25519. Copy and add to DNS.",
-    url: "https://mailhealth.online/tools/dkim-generator",
+    url: "https://mailhealth.dpdns.org/tools/dkim-generator",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Generate a DKIM DNS TXT record from your public key. Supports RSA and Ed25519. Copy and add to DNS.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/dkim-generator",
+    canonical: "https://mailhealth.dpdns.org/tools/dkim-generator",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "DKIM Record Generator",
-            url: "https://mailhealth.online/tools/dkim-generator",
+            url: "https://mailhealth.dpdns.org/tools/dkim-generator",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

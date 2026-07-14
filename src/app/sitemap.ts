@@ -20,25 +20,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: "https://mailhealth.online",
+      url: "https://mailhealth.dpdns.org",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: "https://mailhealth.online/privacy",
+      url: "https://mailhealth.dpdns.org/privacy",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.3,
     },
     {
-      url: "https://mailhealth.online/terms",
+      url: "https://mailhealth.dpdns.org/terms",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.3,
     },
     ...tools.map((t) => ({
-      url: `https://mailhealth.online/tools/${t}`,
+      url: `https://mailhealth.dpdns.org/tools/${t}`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.9,

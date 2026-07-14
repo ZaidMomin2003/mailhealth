@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free DNS Record Lookup — MailHealth",
     description:
       "Query any DNS record type instantly. A, AAAA, MX, TXT, CNAME, NS — all powered by Cloudflare DoH.",
-    url: "https://mailhealth.online/tools/dns-lookup",
+    url: "https://mailhealth.dpdns.org/tools/dns-lookup",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Query any DNS record type instantly. A, AAAA, MX, TXT, CNAME, NS — all powered by Cloudflare DoH.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/dns-lookup",
+    canonical: "https://mailhealth.dpdns.org/tools/dns-lookup",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "DNS Record Lookup",
-            url: "https://mailhealth.online/tools/dns-lookup",
+            url: "https://mailhealth.dpdns.org/tools/dns-lookup",
             applicationCategory: "Network Tool",
             operatingSystem: "Web",
             offers: {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free DMARC Record Checker — MailHealth",
     description:
       "Look up and analyze DMARC records for any domain. See enforcement policy, reporting, and alignment settings.",
-    url: "https://mailhealth.online/tools/dmarc-checker",
+    url: "https://mailhealth.dpdns.org/tools/dmarc-checker",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Look up and analyze DMARC records for any domain. See enforcement policy, reporting, and alignment settings.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/dmarc-checker",
+    canonical: "https://mailhealth.dpdns.org/tools/dmarc-checker",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "DMARC Record Checker",
-            url: "https://mailhealth.online/tools/dmarc-checker",
+            url: "https://mailhealth.dpdns.org/tools/dmarc-checker",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

@@ -5,7 +5,7 @@ import { Copy, Check, RefreshCw, CheckCircle2, XCircle, AlertCircle, Share2, Arr
 import Link from "next/link";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
-const EMAIL_DOMAIN = "mailhealth.online";
+const EMAIL_DOMAIN = "mailhealth.dpdns.org";
 
 function generateId() { return Math.random().toString(36).substring(2, 8); }
 

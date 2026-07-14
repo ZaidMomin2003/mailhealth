@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free Email Deliverability Tester — MailHealth",
     description:
       "Send a test email and get your deliverability score. SPF, DKIM, DMARC checks plus content analysis.",
-    url: "https://mailhealth.online/tools/mail-tester",
+    url: "https://mailhealth.dpdns.org/tools/mail-tester",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Send a test email and get your deliverability score. SPF, DKIM, DMARC checks plus content analysis.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/mail-tester",
+    canonical: "https://mailhealth.dpdns.org/tools/mail-tester",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Email Deliverability Tester",
-            url: "https://mailhealth.online/tools/mail-tester",
+            url: "https://mailhealth.dpdns.org/tools/mail-tester",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

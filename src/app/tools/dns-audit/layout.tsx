@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free SPF DKIM DMARC Checker — MailHealth",
     description:
       "Validate SPF, DKIM, and DMARC records for any domain. Identify authentication issues hurting your deliverability.",
-    url: "https://mailhealth.online/tools/dns-audit",
+    url: "https://mailhealth.dpdns.org/tools/dns-audit",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Validate SPF, DKIM, and DMARC records for any domain. Identify authentication issues hurting your deliverability.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/dns-audit",
+    canonical: "https://mailhealth.dpdns.org/tools/dns-audit",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "DNS & Email Authentication Checker",
-            url: "https://mailhealth.online/tools/dns-audit",
+            url: "https://mailhealth.dpdns.org/tools/dns-audit",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

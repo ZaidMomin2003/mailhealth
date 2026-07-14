@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free Email Warmup Tracker — MailHealth",
     description:
       "Send to 50 seed addresses and see where your emails land — inbox, spam, or missing. Track warmup progress.",
-    url: "https://mailhealth.online/tools/warmup-tracker",
+    url: "https://mailhealth.dpdns.org/tools/warmup-tracker",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Send to 50 seed addresses and see where your emails land — inbox, spam, or missing. Track warmup progress.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/warmup-tracker",
+    canonical: "https://mailhealth.dpdns.org/tools/warmup-tracker",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Email Warmup Tracker",
-            url: "https://mailhealth.online/tools/warmup-tracker",
+            url: "https://mailhealth.dpdns.org/tools/warmup-tracker",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

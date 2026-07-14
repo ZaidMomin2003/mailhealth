@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free DMARC Record Generator — MailHealth",
     description:
       "Configure your DMARC policy with reporting, alignment, and percentage options. Copy the TXT record for your DNS.",
-    url: "https://mailhealth.online/tools/dmarc-generator",
+    url: "https://mailhealth.dpdns.org/tools/dmarc-generator",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Configure your DMARC policy with reporting, alignment, and percentage options. Copy the TXT record for your DNS.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/dmarc-generator",
+    canonical: "https://mailhealth.dpdns.org/tools/dmarc-generator",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "DMARC Record Generator",
-            url: "https://mailhealth.online/tools/dmarc-generator",
+            url: "https://mailhealth.dpdns.org/tools/dmarc-generator",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

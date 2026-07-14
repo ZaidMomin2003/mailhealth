@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
-const SITE_URL = "https://mailhealth.online";
+const SITE_URL = "https://mailhealth.dpdns.org";
 const SHARE_TEXT = "Just found this free email deliverability toolkit — checks spam words, DNS, DMARC, inbox placement & more. No signup needed.";
 
 const platforms = [

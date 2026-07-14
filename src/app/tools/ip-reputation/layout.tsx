@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free IP Reputation Checker — MailHealth",
     description:
       "Check your sending IP against Spamhaus, Barracuda, SpamCop, and 5 more blocklists instantly.",
-    url: "https://mailhealth.online/tools/ip-reputation",
+    url: "https://mailhealth.dpdns.org/tools/ip-reputation",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Check your sending IP against Spamhaus, Barracuda, SpamCop, and 5 more blocklists instantly.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/ip-reputation",
+    canonical: "https://mailhealth.dpdns.org/tools/ip-reputation",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "IP Reputation Checker",
-            url: "https://mailhealth.online/tools/ip-reputation",
+            url: "https://mailhealth.dpdns.org/tools/ip-reputation",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

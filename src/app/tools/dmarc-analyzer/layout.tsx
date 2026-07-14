@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free DMARC Report Analyzer — MailHealth",
     description:
       "Upload DMARC aggregate XML reports and visualize authentication results, source IPs, and policy actions.",
-    url: "https://mailhealth.online/tools/dmarc-analyzer",
+    url: "https://mailhealth.dpdns.org/tools/dmarc-analyzer",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Upload DMARC aggregate XML reports and visualize authentication results, source IPs, and policy actions.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/dmarc-analyzer",
+    canonical: "https://mailhealth.dpdns.org/tools/dmarc-analyzer",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "DMARC Report Analyzer",
-            url: "https://mailhealth.online/tools/dmarc-analyzer",
+            url: "https://mailhealth.dpdns.org/tools/dmarc-analyzer",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

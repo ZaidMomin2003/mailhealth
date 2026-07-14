@@ -15,7 +15,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-[16px] font-semibold text-foreground mb-2">Overview</h2>
           <p>
-            MailHealth (mailhealth.online) provides free email deliverability tools. By using our tools, you agree to these terms. It&apos;s simple — use the tools for free, don&apos;t abuse them.
+            MailHealth (mailhealth.dpdns.org) provides free email deliverability tools. By using our tools, you agree to these terms. It&apos;s simple — use the tools for free, don&apos;t abuse them.
           </p>
         </section>
 

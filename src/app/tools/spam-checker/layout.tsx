@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free Spam Word Checker — MailHealth",
     description:
       "Scan your cold email for spam trigger words and get inbox-safe alternatives instantly.",
-    url: "https://mailhealth.online/tools/spam-checker",
+    url: "https://mailhealth.dpdns.org/tools/spam-checker",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Scan your cold email for spam trigger words and get inbox-safe alternatives instantly.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/spam-checker",
+    canonical: "https://mailhealth.dpdns.org/tools/spam-checker",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Spam Word Checker",
-            url: "https://mailhealth.online/tools/spam-checker",
+            url: "https://mailhealth.dpdns.org/tools/spam-checker",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

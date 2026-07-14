@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free Email Domain Scanner — MailHealth",
     description:
       "Comprehensive email infrastructure scan. Checks MX, SPF, DKIM, DMARC, and BIMI in one go.",
-    url: "https://mailhealth.online/tools/domain-scanner",
+    url: "https://mailhealth.dpdns.org/tools/domain-scanner",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Comprehensive email infrastructure scan. Checks MX, SPF, DKIM, DMARC, and BIMI in one go.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/domain-scanner",
+    canonical: "https://mailhealth.dpdns.org/tools/domain-scanner",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Email Domain Scanner",
-            url: "https://mailhealth.online/tools/domain-scanner",
+            url: "https://mailhealth.dpdns.org/tools/domain-scanner",
             applicationCategory: "Email Tool",
             operatingSystem: "Web",
             offers: {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Free Phishing Link Checker — MailHealth",
     description:
       "Analyze URLs for phishing indicators including suspicious TLDs, brand impersonation, and missing HTTPS.",
-    url: "https://mailhealth.online/tools/phishing-checker",
+    url: "https://mailhealth.dpdns.org/tools/phishing-checker",
     siteName: "MailHealth",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Analyze URLs for phishing indicators including suspicious TLDs, brand impersonation, and missing HTTPS.",
   },
   alternates: {
-    canonical: "https://mailhealth.online/tools/phishing-checker",
+    canonical: "https://mailhealth.dpdns.org/tools/phishing-checker",
   },
 };
 
@@ -35,7 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Phishing Link Checker",
-            url: "https://mailhealth.online/tools/phishing-checker",
+            url: "https://mailhealth.dpdns.org/tools/phishing-checker",
             applicationCategory: "Security Tool",
             operatingSystem: "Web",
             offers: {

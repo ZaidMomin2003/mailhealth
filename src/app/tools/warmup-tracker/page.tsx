@@ -5,7 +5,7 @@ import { Copy, Check, RefreshCw, Inbox, AlertTriangle, XCircle, ArrowLeft, Arrow
 import Link from "next/link";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
-const EMAIL_DOMAIN = "mailhealth.online";
+const EMAIL_DOMAIN = "mailhealth.dpdns.org";
 const SEED_COUNT = 50;
 
 type Placement = "inbox" | "spam" | "missing";

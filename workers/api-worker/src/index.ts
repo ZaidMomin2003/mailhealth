@@ -26,7 +26,7 @@ const BLOCKLISTS = [
 ];
 
 function corsHeaders(origin: string, allowedOrigin: string): Record<string, string> {
-  const allowed = origin === allowedOrigin || origin === "http://localhost:3000" || origin === "https://www.mailhealth.online";
+  const allowed = origin === allowedOrigin || origin === "http://localhost:3000" || origin === "https://www.mailhealth.dpdns.org";
   return {
     "Access-Control-Allow-Origin": allowed ? origin : allowedOrigin,
     "Access-Control-Allow-Methods": "GET, OPTIONS",
@@ -111,7 +111,7 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     const origin = request.headers.get("Origin") || "";
-    const allowedOrigin = env.ALLOWED_ORIGIN || "https://mailhealth.online";
+    const allowedOrigin = env.ALLOWED_ORIGIN || "https://mailhealth.dpdns.org";
 
     // Handle CORS preflight
     if (request.method === "OPTIONS") {
@@ -163,7 +163,7 @@ export default {
         const val = await env.MAIL_RESULTS.get(key);
         if (val) {
           results.push({
-            address: `seed-${session}-${i}@mailhealth.online`,
+            address: `seed-${session}-${i}@mailhealth.dpdns.org`,
             ...JSON.parse(val),
           });
         }
