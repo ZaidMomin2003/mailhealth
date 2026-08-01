@@ -55,7 +55,7 @@ export function PromoSidebar() {
             <div className="space-y-3">
               {[
                 "Unlimited domains & mailboxes",
-                "Inbuilt warmup & rotation",
+                "BYO SMTP + warmup & rotation",
                 "Unified inbox + agency dashboard",
                 "No per-seat or per-email fees",
               ].map((item) => (
@@ -70,7 +70,7 @@ export function PromoSidebar() {
           {/* CTA */}
           <div className="px-6 pb-6 shrink-0">
             <a
-              href="https://cold mail.online"
+              href="https://coldmail.host"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full h-10 bg-yellow-400 hover:bg-yellow-500 text-black text-[13px] font-bold rounded-lg transition-colors"

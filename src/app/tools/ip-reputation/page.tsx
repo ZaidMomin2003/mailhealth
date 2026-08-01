@@ -145,7 +145,7 @@ export default function IpReputationPage() {
           <div className="mt-6 p-4 border border-blue-500/20 bg-blue-500/5 rounded-lg">
             <p className="text-[13px] text-foreground font-medium mb-1">Fix this automatically with cold mail</p>
             <p className="text-[12px] text-muted-foreground leading-relaxed mb-3">Deploy on clean IPs with full reputation control. Automated warmup and monitoring included.</p>
-            <a href="https://cold mail.online" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[12px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
+            <a href="https://coldmail.host" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[12px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
               Learn more about cold mail <ArrowUpRight className="w-3 h-3" />
             </a>
           </div>

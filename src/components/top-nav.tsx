@@ -64,7 +64,7 @@ export function TopNav() {
           </button>
           <ThemeToggle />
           <a
-            href="https://cold mail.online"
+            href="https://coldmail.host"
             target="_blank"
             rel="noopener noreferrer"
             className="h-8 px-3 sm:px-3.5 bg-blue-600 hover:bg-blue-700 text-white text-[11px] sm:text-[12px] font-semibold rounded-md flex items-center gap-1.5 transition-colors"
