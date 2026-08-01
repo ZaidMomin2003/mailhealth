@@ -64,13 +64,13 @@ export function TopNav() {
           </button>
           <ThemeToggle />
           <a
-            href="https://cleanmails.online"
+            href="https://cold mail.online"
             target="_blank"
             rel="noopener noreferrer"
             className="h-8 px-3 sm:px-3.5 bg-blue-600 hover:bg-blue-700 text-white text-[11px] sm:text-[12px] font-semibold rounded-md flex items-center gap-1.5 transition-colors"
           >
-            <span className="hidden sm:inline">Get Cleanmails</span>
-            <span className="sm:hidden">Cleanmails</span>
+            <span className="hidden sm:inline">Get cold mail</span>
+            <span className="sm:hidden">cold mail</span>
             <ArrowUpRight className="w-3 h-3" />
           </a>
         </div>

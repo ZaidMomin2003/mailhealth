@@ -8,7 +8,7 @@ const testimonials = [
   { name: "Jordan K.", role: "Agency Owner", text: "50k emails/day, 30 domains. Zero monthly fees." },
   { name: "Priya S.", role: "Growth Lead", text: "Same results as Instantly, fraction of the cost." },
   { name: "Marcus T.", role: "B2B Consultant", text: "Deliverability went from 60% to 94%." },
-  { name: "Sarah L.", role: "Email Marketer", text: "Self-hosted was scary. Cleanmails made it easy." },
+  { name: "Sarah L.", role: "Email Marketer", text: "Self-hosted was scary. cold mail made it easy." },
 ];
 
 export function PromoSidebar() {
@@ -70,7 +70,7 @@ export function PromoSidebar() {
           {/* CTA */}
           <div className="px-6 pb-6 shrink-0">
             <a
-              href="https://cleanmails.online"
+              href="https://cold mail.online"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full h-10 bg-yellow-400 hover:bg-yellow-500 text-black text-[13px] font-bold rounded-lg transition-colors"

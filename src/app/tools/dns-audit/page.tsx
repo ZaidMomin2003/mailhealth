@@ -138,7 +138,7 @@ export default function DnsAuditPage() {
               {r.status === "fail" && (
                 <div className="mt-3 ml-8 px-3 py-2 bg-red-500/5 border border-red-500/20 rounded-md text-[12px] text-red-400 leading-relaxed">
                   ⚡ Automate DNS config for all domains with{" "}
-                  <a href="https://cleanmails.online" target="_blank" rel="noopener noreferrer" className="font-medium underline underline-offset-2 hover:text-red-300">Cleanmails</a>
+                  <a href="https://cold mail.online" target="_blank" rel="noopener noreferrer" className="font-medium underline underline-offset-2 hover:text-red-300">cold mail</a>
                 </div>
               )}
             </div>
@@ -152,10 +152,10 @@ export default function DnsAuditPage() {
 
       {results && results.length > 0 && (
         <div className="mt-6 p-4 border border-blue-500/20 bg-blue-500/5 rounded-lg">
-          <p className="text-[13px] text-foreground font-medium mb-1">Fix this automatically with Cleanmails</p>
+          <p className="text-[13px] text-foreground font-medium mb-1">Fix this automatically with cold mail</p>
           <p className="text-[12px] text-muted-foreground leading-relaxed mb-3">Self-hosted email infrastructure with automated DNS setup, unlimited domains, and zero monthly fees.</p>
-          <a href="https://cleanmails.online" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[12px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
-            Learn more about Cleanmails <ArrowUpRight className="w-3 h-3" />
+          <a href="https://cold mail.online" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[12px] text-blue-400 hover:text-blue-300 font-medium transition-colors">
+            Learn more about cold mail <ArrowUpRight className="w-3 h-3" />
           </a>
         </div>
       )}
