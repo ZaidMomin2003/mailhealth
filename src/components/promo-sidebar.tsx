@@ -8,7 +8,7 @@ const testimonials = [
   { name: "Jordan K.", role: "Agency Owner", text: "50k emails/day, 30 domains. Zero monthly fees." },
   { name: "Priya S.", role: "Growth Lead", text: "Same results as Instantly, fraction of the cost." },
   { name: "Marcus T.", role: "B2B Consultant", text: "Deliverability went from 60% to 94%." },
-  { name: "Sarah L.", role: "Email Marketer", text: "Self-hosted was scary. cold mail made it easy." },
+  { name: "Sarah L.", role: "Email Marketer", text: "Self-hosted was scary. Cleanmails made it easy." },
 ];
 
 export function PromoSidebar() {
